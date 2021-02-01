@@ -28,6 +28,8 @@
 ${content.document.body.innerHTML}
 
 <hr>
+<em>Your lucky number is ${content.luckyNumber}</em>
+
 <em>generated at ${content.time}</em>
 
 </body>

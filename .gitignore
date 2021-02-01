@@ -7,3 +7,4 @@ logs
 helix-config.yaml.old
 effective-helix-config.yaml
 .env
+.idea

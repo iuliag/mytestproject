@@ -22,7 +22,10 @@
  * @param context.content The content
  */
 function pre(context) {
-  context.content.time = `${new Date()}`;
+  context.content = {
+    time: `${new Date()}`,
+    luckyNumber: `${Math.random()}`,
+  };
 }
 
 module.exports.pre = pre;
